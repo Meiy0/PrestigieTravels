@@ -10,16 +10,16 @@
     "contributors": [],
     "diagrams": [
       {
-        "id": 1,
-        "title": "Nuevo diagrama STRIDE",
+        "id": 2,
+        "title": "Diagrama",
         "diagramType": "STRIDE",
-        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.4.1",
         "cells": []
       }
     ],
-    "diagramTop": 2,
+    "diagramTop": 3,
     "reviewer": "",
     "threatTop": 0
   }

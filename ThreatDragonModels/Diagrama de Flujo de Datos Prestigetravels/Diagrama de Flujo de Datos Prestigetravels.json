@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "25694995-b4ed-462d-98df-8c6a98720ad4",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Usuario",
@@ -154,6 +154,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -237,7 +238,6 @@
               ]
             },
             "id": "15594585-ec6e-4293-9d94-808ffdaf6860",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Administrador",
@@ -270,6 +270,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -353,7 +354,6 @@
               ]
             },
             "id": "9f9a0ec7-653c-4e68-aeb5-bc3327e63497",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "Registro/Inicio de Sesión",
@@ -392,6 +392,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -475,7 +476,6 @@
               ]
             },
             "id": "f0dbc9d4-fa3a-4e1f-8725-41c783d4c9b8",
-            "zIndex": 4,
             "data": {
               "type": "tm.Store",
               "name": "Base de Datos MySQL",
@@ -512,6 +512,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -595,7 +596,6 @@
               ]
             },
             "id": "0264bb8f-783b-4354-b7ae-36703d40632c",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Ver paquetes / hoteles ",
@@ -631,6 +631,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -714,7 +715,6 @@
               ]
             },
             "id": "2e48cb50-ad62-48cc-a9fc-148d410e06a9",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "Panel de Administración",
@@ -799,7 +799,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Datos",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -811,7 +811,7 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "Datos"
             ],
             "id": "cf88fa13-2f18-4d13-9125-cc2194207b91",
             "source": {
@@ -824,7 +824,7 @@
             },
             "vertices": [
               {
-                "x": 310,
+                "x": 330,
                 "y": -260
               }
             ]
